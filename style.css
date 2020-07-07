@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+}
+nav{
+    margin-bottom: 20px;
+}
+.orange-bg{
+    background-color: #feeae9;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 50px;
+}
+.carousel-price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.catagories{
+    margin: 50px 0;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+}
+.cat1{
+    background: rgb(255,156,53);
+    background: linear-gradient(106deg, rgba(255,156,53,1) 0%, rgba(255,208,25,1) 100%);
+    color: #fff;
+    border-radius: 10px;
+}
+.cat2{
+    background: rgb(255,88,155);
+background: linear-gradient(188deg, rgba(255,88,155,1) 0%, rgba(255,19,111,1) 100%);
+color: #fff;
+border-radius: 10px;
+}
+.cat3{
+    background: rgb(66,137,255);
+background: linear-gradient(149deg, rgba(66,137,255,1) 0%, rgba(63,7,248,1) 100%);
+color: #fff;
+border-radius: 10px;
+}
+.cat-heading{
+    margin: 50px 0;
+    font-size: 30px;
+}
+.catagories img{
+    width: 100px;
+}
+.catagories h1{
+    font-size: 30px;
+}
+.card-title{
+    font-weight: 700;
+}
+
+.shoes-price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(182, 188, 194);
+}
+.backpack h3 {
+    margin: 50px 0 ;
+}
+.subscribe{
+    margin: 100px 0;
+    background-color: #FEEAE9;
+    padding: 100px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.subscribe .text-box{
+    padding: 10px 15px;border: none;
+    border-radius: 10px;
+    width: 400px;
+}
+.subscribe .buy-now-button {
+    border-radius: 0 10px 10px 0;
+    margin-left: -15px;
+    padding: 10px 30px;
+}
+.subscribe .buy-now-button:hover{
+    background-image: linear-gradient(to bottom, #e6407f 0%, #c20950 100%);
+}
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+.backpack,.shoes{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+}
